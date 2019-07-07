@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php [L]
+
+ErrorDocument 401 /static/views/errors/401.php
+ErrorDocument 403 /static/views/errors/403.php
