@@ -39,6 +39,7 @@ body {
 .navigation .form-navigation ul {
 	list-style-type: none;
 	float: left;
+	padding-left: 0;
 }
 .navigation .form-navigation ul li {
 	float: left;
@@ -331,6 +332,9 @@ body {
 
 	
 
+}
+.curs {
+	font-size: 0.8em;
 }
 .courses a .curs {
 	width: 620px;
@@ -668,4 +672,11 @@ body {
 }
 .subscripe-courses {
 	position: relative;
+}
+
+
+.logo img{
+	width: 50px;
+	margin-left: 45px;
+	margin-right: 40px;
 }

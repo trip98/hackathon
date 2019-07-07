@@ -39,7 +39,7 @@
 		</ul>
 		<div class="form-navigation">
 			<ul>
-				<a href='/'><li>Главная</li></a>
+				<a href='/'><li class='logo'><img src="/static/img/logo.png" alt=""></li></a>
 				<li><p class='inversePair' id='a'>Курсы</p></li>
 				<li><input class='search' placeholder="Поиск" class='inversePair' id='b' type="text"></li>
 			</ul>

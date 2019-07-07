@@ -12,8 +12,6 @@
 </div>
 <div class="content-main">
 	<div class="partners">
-		<div class="partner-big left-partner-big">Больше</div>
-		<div class="partner-big right-partner-big">Больше</div>
 		<div class="subscripe-partners">
 			<div class="partner" style='background-image:url(/static/img/2.jpg)'></div>
 			<div class="partner" style='background-image: url(/static/img/3.jpg)'></div>
@@ -26,19 +24,19 @@
 	<div class="courses">
 		<h2 class='popcourse'>Популярные курсы</h2>
 		<div class="subscripe-courses">
-			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<div class="curs"><div class="cover"><h2>ОБРАЗОВАНИЕ ДРЕВНЕРУССКОГО ГОСУДАРСТВА </h2></div></div>
 			<a href="/curshistory">
-			<div class="curs"><div class="cover"><h2>Название</h2></div>
+			<div class="curs"><div class="cover"><h2>Итоги Великой Отечественной войны</h2></div>
 				<video autoplay="true" loop="true" muted="muted">
 					<source src="static/files/lesson.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 				</video>
 			</div>
 			</a>
-			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
-			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
-			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
-			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
-			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<div class="curs"><div class="cover"><h2>КУЛЬТУРА ДРЕВНЕЙ РУСИ </h2></div></div>
+			<div class="curs"><div class="cover"><h2>ЗАКРЕПОЩЕНИЕ КРЕСТЬЯН В РОССИИ </h2></div></div>
+			<div class="curs"><div class="cover"><h2>ЭПОХА ПЕТРОВСКИХ ПРЕОБРАЗОВАНИЙ </h2></div></div>
+			<div class="curs"><div class="cover"><h2>ВОССТАНИЕ ПУГАЧЕВА </h2></div></div>
+			<div class="curs"><div class="cover"><h2>РАЗВИТИЕ ПРОМЫШЛЕННОСТИ, ТОРГОВЛИ И ТРАНСПОРТА</h2></div></div>
 		</div>
 		<button class="clasic still">Еще больше курсов</button>
 	</div>
