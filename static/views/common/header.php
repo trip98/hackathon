@@ -6,22 +6,25 @@
 	<link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
+<div id="hint" style="display:none"></div>
 <div class="header">
 	<div class="popup">
 		<ul class='addp'>
-			<a href='/curs?id=23'><li>Математика</li></a>
+			<a href='/curs?id=23' class='mat'><li>Математика</li></a>
 			<li>Русская литература</li>
 			<li>Физика</li>
-			<li>История</li>
+			<a href='curshistory'><li>История</li></a>
 		</ul>
 	</div>	
-	<div class="logo"></div>
+
+
+
 	<div class="navigation">
 		<ul class='links'>
-			<li>Родителям</li>
-			<li>Компаниям</li>
+			<li class='parent'>Родителям</li>
+			<li>Компаниям</li>   
 			<li>Переводчикам</li>
-			<?php if(!$_SESSION['user']): ?>
+			<?php if(!$_SESSION['user']): ?> 
 				<li class="open">
 					<button>Вход</button>
 				</li>
@@ -36,8 +39,9 @@
 		</ul>
 		<div class="form-navigation">
 			<ul>
+				<a href='/'><li>Главная</li></a>
 				<li><p class='inversePair' id='a'>Курсы</p></li>
-				<li><input placeholder="Поиск" class='inversePair' id='b' type="text"></li>
+				<li><input class='search' placeholder="Поиск" class='inversePair' id='b' type="text"></li>
 			</ul>
 		</div>
 	</div>

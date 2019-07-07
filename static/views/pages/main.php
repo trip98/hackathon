@@ -24,25 +24,26 @@
 		</div>
 	</div>
 	<div class="courses">
-		<h2>Популярные курсы</h2>
+		<h2 class='popcourse'>Популярные курсы</h2>
 		<div class="subscripe-courses">
-
-			<div class="curs"></div>
-			<div class="curs">
+			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<a href="/curshistory">
+			<div class="curs"><div class="cover"><h2>Название</h2></div>
 				<video autoplay="true" loop="true" muted="muted">
 					<source src="static/files/lesson.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 				</video>
 			</div>
-			<div class="curs"></div>
-			<div class="curs"></div>
-			<div class="curs"></div>
-			<div class="curs"></div>
-			<div class="curs"></div>
+			</a>
+			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
+			<div class="curs"><div class="cover"><h2>Название</h2></div></div>
 		</div>
-		<button class="clasic">Еще больше курсов</button>
+		<button class="clasic still">Еще больше курсов</button>
 	</div>
 	<div class="advantages">
-		<h2>Наши преимущества</h2>
+		<h2 class='advantagel'>Наши преимущества</h2>
 		<div class="subscripe-advantages">
 			<div class="advanta">
 				<div class="img"></div>

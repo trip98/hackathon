@@ -3,7 +3,7 @@
 		<div class="profile">
 			<img src="asdf.wqer" alt="">
 			<div class="status">
-				<h3>Алексей Шираев</h3>
+				<h3><?= $data['name'] ?> <?= $data['lastname'] ?></h3>
 				<p>Прошел 400 курсов</p>
 				<p>Записал 10 курсов</p>
 			</div>

@@ -327,12 +327,37 @@ body {
 	background: #c0c0c0;
 	float:left;
 	margin: 10px;
+	position: relative;
+
+	
+
 }
-.curs:nth-child(2) {
+.courses a .curs {
 	width: 620px;
+	background: #c0c0c0;
 }
-
-
+.cover {
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgba(42,115,204,1);
+	background: -moz-linear-gradient(top, rgba(42,115,204,1) 0%, rgba(255,255,255,0) 63%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,115,204,1)), color-stop(63%, rgba(255,255,255,0)), color-stop(71%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top, rgba(42,115,204,1) 0%, rgba(255,255,255,0) 63%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top, rgba(42,115,204,1) 0%, rgba(255,255,255,0) 63%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top, rgba(42,115,204,1) 0%, rgba(255,255,255,0) 63%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to top, rgba(42,115,204,1) 0%, rgba(255,255,255,0) 63%, rgba(255,255,255,0) 71%, rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a73cc', endColorstr='#ffffff', GradientType=0 );
+}
+.cover h2 {
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	color:white;
+}
 
 .advantages {
 	text-align: center;
@@ -342,6 +367,7 @@ body {
 .subscripe-advantages {
 	display: inline-block;
 	overflow: hidden;
+
 }
 .advanta {
 	width: 205px;
@@ -591,6 +617,7 @@ body {
 	margin: auto;
 	margin-bottom: 100px;
 	text-align: justify;
+	position: relative;
 }
 
 
@@ -598,9 +625,47 @@ body {
 	width: 78%;
 	right: 0;
 }
+.history-main video {
+	width:78%;
+	left:0;
+}
+.history-content {
+	width:20%;
+	float:right;
+	height:100vh;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 2em;
+	overflow: scroll;
+}
 
 
 .curs video {
 	height: 100%;
 	width: 100%;
+}
+
+
+.label.left {
+	left: -50px;
+}
+
+
+#hint{
+    position: fixed;
+    padding: 3px 6px;
+    width: 100px;
+    height:100px;
+    color: white;
+    font: 12px Arial;
+    transition: 0.4s;
+    opacity: 0;
+    z-index: 1000;
+}
+#hint img {
+	width:100%;
+}
+.subscripe-courses {
+	position: relative;
 }

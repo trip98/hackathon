@@ -7,8 +7,8 @@ class Main {
 	use ModelMain;
 
 	public function index(){
-		self::renderCommon('header');
-		self::renderv("main","pages", ["test"=>"qwer"]);
+		self::renderCommon('header', ["title"=>"Главная"]);
+		self::renderv("main","pages");
 		self::renderCommon('footer');
 	}
 	public function curs($request) {
@@ -23,6 +23,16 @@ class Main {
 		if(!$id) header('Location: /');
 		self::renderCommon('header');
 		self::renderv('lesson', 'pages');
+		self::renderCommon('footer');
+	}
+	public function historycurs($request) {
+		self::renderCommon('header', ['title' => 'История']);
+		self::renderv('historyCurs', 'pages');
+		self::renderCommon('footer');
+	}
+	public function historyLesson($request) {
+		self::renderCommon('header', ['title' => 'История']);
+		self::renderv('historyLesson', 'pages');
 		self::renderCommon('footer');
 	}
 }

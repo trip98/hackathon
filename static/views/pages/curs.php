@@ -3,7 +3,7 @@
 		<video width="400" height="300" controls="controls" autoplay="true" loop="true" muted="muted">
 			<source src="/static/files/lesson.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 		</video>
-		<div class="label">
+		<div class="label left">
 			<h2>Математика в тишине</h2>
 			<h3>Цель</h3>
 			<p>Подготовка к ЕГЭ</p>

@@ -41,12 +41,12 @@ let Authentication = {
 	},
 	async entry() {
 		let data = this.generateData();
-		let result = fetch('/entry', {body: data, method: 'POST'}).then(res => res.json());
+		let result = await fetch('/entry', {body: data, method: 'POST'}).then(res => res.json());
 		if(result) location.reload();
 	},
 	async registration() {
 		let data = this.generateData();
-		let result = fetch('/registration', {body: data, method: 'POST'}).then(res => res.json());
+		let result = await fetch('/registration', {body: data, method: 'POST'}).then(res => res.json());
 		if(result) location.reload();
 	},
 	open() {
