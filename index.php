@@ -3,6 +3,7 @@ session_start();
 require __DIR__ . "/vendor/autoload.php";
 use app\Route;
 
+
 Route::GET("/", "Main@index");
 Route::GET("/main", "Main@index");
 Route::GET('/main', 'Authentication@main');
